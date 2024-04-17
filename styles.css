@@ -3,10 +3,93 @@
     src: url(fonts/UbuntuMono-Regular.ttf);
 }
 
+@media (max-width: 600px){
+    body {
+        background-image: url(./images/ap.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #f5f5f5;
+        text-align: center;
+        display: flex;
+        font-family: "Ubuntu Mono";
+        overflow: hidden;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        margin: 0px auto;
+    }
+
+    header {
+        color: #f9f9f9;
+        font-size: 4em;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 30vh;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+
+    main {
+        color: #f9f9f9;
+        justify-content: center;
+        text-align: left;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 32vh;
+        line-height: 250%;
+        box-sizing: border-box;
+        font-size: 1.2em;
+    }
+    
+    footer {
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 36vh;
+        box-sizing: border-box;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #f9f9f9; 
+        font-size: 2em;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #f9f9f9; 
+        font-size: 2em;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.06em;
+        color: #fcfcfc;
+        font-size: 2em;
+    }
+    
+    a:active {
+        text-decoration: none;
+        color: #f9f9f9;
+        font-size: 2em;
+    }
+
+    
+    i {
+        margin: 0em;
+        font-size: 1.5em;
+    }
+}
 
 @media (min-width: 601px) {
     body {
-        background-image: url(lbjlawn.jpg);
+        background-image: url(./images/lbjlawn.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-color: #f5f5f5;
@@ -20,80 +103,72 @@
         height: fit-content;
         margin: 0px auto;
     }
-}
 
-@media (max-width: 600px){
-    body {
-        background-image: url(lbjlawnportrait.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: #f5f5f5;
-        text-align: center;
-        display: flex;
-        font-family: "Ubuntu Mono";
-        overflow: hidden;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
+    header {
+        color: #333333;
+        font-size: 5em;
+        justify-content: center;
+        width: fit-content;
         height: fit-content;
-        margin: 0px auto;
+        position: relative;
+        top: 15vh;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+
+    main {
+        color: #333333;
+        justify-content: center;
+        text-align: left;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 17vh;
+        line-height: 400%;
+        box-sizing: border-box;
+    }
+    
+    footer {
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 20vh;
+        box-sizing: border-box;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #333333; 
+        font-size: 3.25em;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #333333; 
+        font-size: 3.25em;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.06em;
+        color: #5c5c5c;
+        font-size: 3.25em;
+    }
+    
+    a:active {
+        text-decoration: none;
+        color: #333333;
+        font-size: 3.25em;
+    }
+
+    i {
+        margin: 0.01em;
+        color: #333333;
+        font-size: 1em;
     }
 }
 
-i {
-    margin: 0.01em;
-}
-
-header {
-    color: #333333;
-    font-size: 5em;
-    justify-content: center;
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    top: 15vh;
-    box-sizing: border-box;
-    margin: 0px;
-}
-
-main {
-    color: #333333;
-    justify-content: center;
-    text-align: left;
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    top: 17vh;
-    line-height: 400%;
-    box-sizing: border-box;
-}
-
-footer {
-    justify-content: center;
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    top: 20vh;
-    box-sizing: border-box;
-}
-
-a:link {
-    text-decoration: none;
-    color: #333333; 
-}
-
-a:visited {
-    text-decoration: none;
-    color: #333333; 
-}
-
-a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 0.06em;
+.fa-spotify:hover, .fa-linkedin:hover, .fa-instagram:hover {
     color: #5c5c5c;
-}
-
-a:active {
-    text-decoration: none;
-    color: #333333; 
 }

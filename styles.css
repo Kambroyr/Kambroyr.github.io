@@ -4,6 +4,8 @@
 }
 
 body {
+    background-image: url(lbjlawn.jpg);
+    background-repeat: no-repeat;
     background-color: #f5f5f5;
     text-align: center;
     display: flex;
@@ -21,25 +23,25 @@ i {
 }
 
 header {
-    color: #9279ba;
+    color: #333333;
     font-size: 5em;
     justify-content: center;
     width: fit-content;
     height: fit-content;
     position: relative;
-    top: 25vh;
+    top: 15vh;
     box-sizing: border-box;
     margin: 0px;
 }
 
 main {
-    color: #9279ba;
+    color: #333333;
     justify-content: center;
     text-align: left;
     width: fit-content;
     height: fit-content;
     position: relative;
-    top: 27vh;
+    top: 17vh;
     line-height: 400%;
     box-sizing: border-box;
 }
@@ -49,27 +51,27 @@ footer {
     width: fit-content;
     height: fit-content;
     position: relative;
-    top: 30vh;
+    top: 20vh;
     box-sizing: border-box;
 }
 
 a:link {
     text-decoration: none;
-    color: #baa1ed; 
+    color: #333333; 
 }
 
 a:visited {
     text-decoration: none;
-    color: #baa1ed; 
+    color: #333333; 
 }
 
 a:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.06em;
-    color: #d6c7f4;
+    color: #5c5c5c;
 }
 
 a:active {
     text-decoration: none;
-    color: #baa1ed; 
+    color: #333333; 
 }

@@ -4,8 +4,6 @@
 }
 
 body {
-    background-image: url(lbjlawn.jpg);
-    background-repeat: no-repeat;
     background-color: #f5f5f5;
     text-align: center;
     display: flex;
